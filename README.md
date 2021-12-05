@@ -1,79 +1,41 @@
-# Reasoning Over Tabular Data bibliography
+# Reasoning Over Tabular Data Bibliography
 
 An annotated bibliography of tutorials, datasets, papers for Reasoning Over Tabular Data.
 
-## Table of Contents
+## Table Representation Learning
+* TaBERT: Learning Contextual Representations for Natural Language Utterances and Structured Tables (ACL 2020) [[Paper](https://aclanthology.org/2020.acl-main.745/)][[Github](https://github.com/facebookresearch/TaBERT)] 
+* TAPAS: Weakly Supervised Table Parsing via Pre-training (ACL 2020) [[Paper](https://aclanthology.org/2020.acl-main.398/)][[Github](https://github.com/google-research/tapas)] 
+* GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing (ICLR 2021) [[Paper](https://openreview.net/forum?id=kyaIeYj4zZ)][[Huggingface](https://huggingface.co/Salesforce/grappa_large_jnt)] 
 
-- [Datasets](#datasets)
-  - [Documents](#documents)
-  - [Dialogues](#dialogues)
- 
-- [Papers](#papers)
-  - [Sparse Attention](#sparse-attention)
-  - [Extract-then-generate](#extract-then-generate)
-  - [Divide-and-conquer](#divide-and-conquer)
-  - [Hierarchical Models](#hierarchical-models)
-  - [Others](#others)
-- [Datasets](#datasets)
-  - [Documents](#documents)
-  - [Dialogues](#dialogues)
+## Text Generation over Tabular Data
+### Datasets
+* Logical Natural Language Generation from Open-Domain Tables (ACL 2020) [[Paper](https://aclanthology.org/2020.acl-main.708/)][[Github](https://github.com/wenhuchen/LogicNLG)] 
+* ToTTo: A Controlled Table-To-Text Generation Dataset (EMNLP 2020) [[Paper](https://aclanthology.org/2020.emnlp-main.89/)][[Github](https://github.com/google-research-datasets/totto)]
+* SciGen: a Dataset for Reasoning-Aware Text Generation from Scientific Tables (NIPS 2021) [[Paper](https://openreview.net/forum?id=Jul-uX7EV_I)][[Github](https://github.com/UKPLab/SciGen)]
+* HiTab: A Hierarchical Table Dataset for Question Answering and Natural Language Generation (Pre-print 2021) [[Paper](https://arxiv.org/abs/2108.06712)]
 
-## Papers
-### Sparse Attention
+### Papers
+* Towards Table-to-Text Generation with Numerical Reasoning (ACL 2021) [[Paper](https://aclanthology.org/2021.acl-long.115/)]
 
-* Longformer: The Long-Document Transformer [[paper](https://arxiv.org/abs/2004.05150)]
-* Big Bird: Transformers for Longer Sequences [[paper](https://arxiv.org/abs/2007.14062)]
-* Reformer: The Efficient Transformer [[paper](https://arxiv.org/abs/2001.04451)]
-* Efficient Attentions for Long Document Summarization [[paper](https://arxiv.org/abs/2104.02112)]
-
-### Extract-then-generate
-
-* Pretraining-Based Natural Language Generation for Text Summarization [[paper](https://arxiv.org/abs/1902.09243)]
-* Scoring Sentence Singletons and Pairs for Abstractive Summarization [[paper](https://arxiv.org/abs/1906.00077)]
-* Neural Extractive Text Summarization with Syntactic Compression [[paper](https://arxiv.org/abs/1902.00863)]
-* Long document summarization in a low resource setting using pretrained language models [[paper](https://arxiv.org/abs/2103.00751)]
-* Fast Abstractive Summarization with Reinforce-Selected Sentence Rewriting [[paper](https://arxiv.org/abs/1805.11080)]
-* Summary Level Training of Sentence Rewriting for Abstractive Summarization [[paper](https://arxiv.org/abs/1909.08752)]
-* DYLE: Dynamic Latent Extraction for Abstractive Long-Input Summarization [[paper](https://arxiv.org/abs/2110.08168)]
-* Leveraging Information Bottleneck for Scientific Document Summarization [[paper](https://arxiv.org/abs/2110.01280)]
+## Reasoning over Tabular Data
+### Datasets
+* TabFact: A Large-scale Dataset for Table-based Fact Verification (ICLR 2020) [[Paper](https://openreview.net/forum?id=rkeJRhNYDH)][[Github](https://github.com/wenhuchen/Table-Fact-Checking)]
+* FeTaQA: Free-form Table Question Answering (TACL 2021) [[Paper](https://arxiv.org/abs/2104.00369)][[Github](https://github.com/Yale-LILY/FeTaQA)]
+* HiTab: A Hierarchical Table Dataset for Question Answering and Natural Language Generation (Pre-print 2021) [[Paper](https://arxiv.org/abs/2108.06712)]
+### Papers
 
 
-### Divide-and-conquer
-* A Divide-and-Conquer Approach to the Summarization of Long Documents [[paper](https://arxiv.org/abs/2004.06190)]
-* Globalizing BERT-based transformer architectures for long document summarization [[paper](https://aclanthology.org/2021.eacl-main.154/)]
-* End-to-End Segmentation-based News Summarization[[paper](https://arxiv.org/abs/2110.07850)]
-* Sliding Selector Network with Dynamic Memory for Extractive Summarization of Long Documents [[paper](https://aclanthology.org/2021.naacl-main.470/)]
-* A Divide-and-Conquer Approach to the Summarization of Long Documents [[paper](https://arxiv.org/abs/2004.06190)]
+## Reasoning over Tabular and Textual Data (Hybrid Data)
+### Datasets
+* HybridQA: A Dataset of Multi-Hop Question Answering over Tabular and Textual Data (EMNLP-findings 2020) [[Paper](https://aclanthology.org/2020.findings-emnlp.91/)][[Github](https://github.com/wenhuchen/HybridQA)]
+* Open Question Answering over Tables and Text (ICLR 2021) [[Paper](https://openreview.net/forum?id=MmCRswl1UYl)][[Github](https://github.com/wenhuchen/OTT-QA)]
+* TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance (ACL 2021) [[Paper](https://aclanthology.org/2021.acl-long.254/)][[Github](https://github.com/NExTplusplus/tat-qa)]
+* FinQA: A Dataset of Numerical Reasoning over Financial Data (EMNLP 2021) [[Paper](https://aclanthology.org/2021.emnlp-main.300/)][[Github](https://github.com/czyssrs/FinQA)]
 
-### Hierarchical Models
-* A Discourse-Aware Attention Model for Abstractive Summarization of Long Documents [[paper](https://arxiv.org/abs/1804.05685)]
-* Hierarchical Learning for Generation with Long Source Sequences [[paper](https://arxiv.org/abs/2104.07545)]
-* A Hierarchical Network for Abstractive Meeting Summarization with Cross-Domain Pretraining [[paper](https://arxiv.org/abs/2004.02016)]
-* Globalizing BERT-based Transformer Architectures for Long Document Summarization [[paper](https://www.aclweb.org/anthology/2021.eacl-main.154/)]
-* Efficient Attentions for Long Document Summarization [[paper](https://arxiv.org/abs/2104.02112)]
-* Extractive Summarization of Long Documents by Combining Global and Local Context [[paper](https://arxiv.org/abs/1909.08089)]
+### Papers
 
-### Others
-* Generating Summaries for Scientific Paper Review [[paper](https://arxiv.org/abs/2109.14059)]
-* Sparsity and Sentence Structure in Encoder-Decoder Attention of Summarization Systems [[paper](https://arxiv.org/abs/2109.03888)]
-* Long-Span Summarization via Local Attention and Content Selection [[paper](https://aclanthology.org/2021.acl-long.470/)]
-* Discourse-Aware Unsupervised Summarization for Long Scientific Documents [[paper](https://www.aclweb.org/anthology/2021.eacl-main.93/)]
-* Long Document Summarization in a Low Resource Setting using Pretrained Language Models [[paper](https://aclanthology.org/2021.acl-srw.7/)]
+## Tutorials
 
-## Datasets
-### Documents
-* GovReport [[paper](https://arxiv.org/abs/2104.02112)][[download](https://gov-report-data.github.io/)]
-* ArXiv and PubMed [[paper](https://arxiv.org/abs/1804.05685)][[download](https://huggingface.co/datasets/scientific_papers)]
-* BillSum [[paper](https://arxiv.org/abs/1910.00523)][[download](https://github.com/FiscalNote/BillSum)]
-* BIGPATENT [[paper](https://arxiv.org/abs/1906.03741)][[download](https://evasharma.github.io/bigpatent/)]
-* ScisummNet [[paper](https://arxiv.org/abs/1909.01716)][[download](https://cs.stanford.edu/~myasu/projects/scisumm_net/)]
-
-### Dialogues
-* QMSum [[paper](https://arxiv.org/abs/2104.05938)][[download](https://github.com/Yale-LILY/QMSum)]
-* AMI [[paper](https://www.semanticscholar.org/paper/The-AMI-Meeting-Corpus%3A-A-Pre-announcement-Carletta-Ashby/e4e0fd56309e28b28bb47c9a72ad6111c76bb8b9)][[download](https://groups.inf.ed.ac.uk/ami/download/)]
-* ICSI [[paper](https://ieeexplore.ieee.org/document/1198793)][[download](https://groups.inf.ed.ac.uk/ami/icsi/)]
-* MediaSum [[paper](https://arxiv.org/abs/2103.06410)][[download](https://github.com/zcgzcgzcg1/MediaSum)]
-* SummScreen [[paper](https://arxiv.org/abs/2104.07091)][[download](https://github.com/mingdachen/SummScreen)]
 
 ## Contributing
 Please feel free to make a pull request or email Yilun Zhao (yilun.zhao@yale.edu) for any interesting updates.
