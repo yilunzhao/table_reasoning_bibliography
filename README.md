@@ -1,4 +1,4 @@
-# Reasoning over Tabular Data Bibliography
+# Roadmap for Reasoning over Tabular Data
 
 An annotated bibliography of tutorials, datasets, papers for Reasoning over Tabular Data.
 
