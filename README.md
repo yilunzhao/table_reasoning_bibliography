@@ -42,13 +42,13 @@ An annotated bibliography of tutorials, datasets, papers for Reasoning over Tabu
 ### Papers
 
 ## Tutorials
-KDD'21 Tutorial: From Tables to Knowledge: Recent Advances in Table Understanding [[Website](https://usc-isi-i2.github.io/KDD21Tutorial/index.html)]
+### KDD'21 Tutorial: From Tables to Knowledge: Recent Advances in Table Understanding [[Website](https://usc-isi-i2.github.io/KDD21Tutorial/index.html)]
 * Understanding Table Structures [[slides](https://usc-isi-i2.github.io/KDD21Tutorial/1-KDD2021-FT2K-Structural-Table-Understanding.pdf)] by _Jay Pujara_
 * Semantic Understanding of Tables [[slides](https://usc-isi-i2.github.io/KDD21Tutorial/2-KDD2021-FT2K-Semantic-Models.pdf)] by _Pedro Szekely_
 * Representation Learning for Tables [[slides](https://usc-isi-i2.github.io/KDD21Tutorial/3-KDD2021-FT2K-Representation-Learning.pdf)] by _Huan Sun_
 * Bridging Tables and Language [[slides](https://usc-isi-i2.github.io/KDD21Tutorial/4-KDD2021-FT2K-human-languages.pdf)] by _Muhao Chen_
 
-EMNLP 2021 Tutorial: Knowledge-Enriched Natural Language Generation [[Website](https://kenlg-tutorial.github.io/)]
+### EMNLP 2021 Tutorial: Knowledge-Enriched Natural Language Generation [[Website](https://kenlg-tutorial.github.io/)]
 * General Methods of Integrating Knowledge into NLG [[slides(Hu)](https://kenlg-tutorial.github.io/tutorial/part2.pdf)][[slides(Rajani)](https://kenlg-tutorial.github.io/tutorial/part3.pdf)] by _Zhiting Hu, Nazneen Rajani_
 * NLG Methods Enhanced by Various Knowledge Source [[slides](https://kenlg-tutorial.github.io/tutorial/part4.pdf)] by _Wenhao Yu_
 
