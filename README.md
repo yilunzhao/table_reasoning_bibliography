@@ -14,7 +14,7 @@ An annotated bibliography of tutorials, datasets, papers for Reasoning over Tabu
 * A Graph Representation of Semi-structured Data for Web Question Answering (COLING 2020) [[Paper](https://aclanthology.org/2020.coling-main.5/)]
 * Retrieving Complex Tables with Multi-Granular Graph Representation Learning (SIGIR 2021) [[Paper](https://arxiv.org/abs/2105.01736)][[Github](https://github.com/FeiWang96/GTR)] 
 
-## Text Generation over Tabular Data
+## Logical Text Generation over Tabular Data
 ### Datasets
 * Logical Natural Language Generation from Open-Domain Tables (ACL 2020) [[Paper](https://aclanthology.org/2020.acl-main.708/)][[Github](https://github.com/wenhuchen/LogicNLG)] 
 * ToTTo: A Controlled Table-To-Text Generation Dataset (EMNLP 2020) [[Paper](https://aclanthology.org/2020.emnlp-main.89/)][[Github](https://github.com/google-research-datasets/totto)]
@@ -23,6 +23,8 @@ An annotated bibliography of tutorials, datasets, papers for Reasoning over Tabu
 
 ### Papers
 * Towards Table-to-Text Generation with Numerical Reasoning (ACL 2021) [[Paper](https://aclanthology.org/2021.acl-long.115/)]
+* De-Confounded Variational Encoder-Decoder for Logical Table-to-Text Generation (ACL 2021) [[Paper](https://aclanthology.org/2021.acl-long.430/)]
+
 
 ## Reasoning over Tabular Data
 ### Datasets
@@ -30,7 +32,7 @@ An annotated bibliography of tutorials, datasets, papers for Reasoning over Tabu
 * FeTaQA: Free-form Table Question Answering (TACL 2021) [[Paper](https://arxiv.org/abs/2104.00369)][[Github](https://github.com/Yale-LILY/FeTaQA)]
 * HiTab: A Hierarchical Table Dataset for Question Answering and Natural Language Generation (Pre-print 2021) [[Paper](https://arxiv.org/abs/2108.06712)]
 ### Papers
-
+Joint Verification and Reranking for Open Fact Checking Over Tables (ACL 2021) [[Paper](https://aclanthology.org/2021.acl-long.529/)][[Github](https://github.com/facebookresearch/OpenTableFactChecking)]
 
 ## Reasoning over Tabular and Textual Data (Hybrid Data)
 ### Datasets
