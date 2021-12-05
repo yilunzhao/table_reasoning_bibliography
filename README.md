@@ -1,11 +1,18 @@
-# Reasoning Over Tabular Data Bibliography
+# Reasoning over Tabular Data Bibliography
 
-An annotated bibliography of tutorials, datasets, papers for Reasoning Over Tabular Data.
+An annotated bibliography of tutorials, datasets, papers for Reasoning over Tabular Data.
 
 ## Table Representation Learning
+### Transformer-Based
 * TaBERT: Learning Contextual Representations for Natural Language Utterances and Structured Tables (ACL 2020) [[Paper](https://aclanthology.org/2020.acl-main.745/)][[Github](https://github.com/facebookresearch/TaBERT)] 
 * TAPAS: Weakly Supervised Table Parsing via Pre-training (ACL 2020) [[Paper](https://aclanthology.org/2020.acl-main.398/)][[Github](https://github.com/google-research/tapas)] 
+* Understanding tables with intermediate pre-training (EMNLP-findings 2021) [[Paper](https://aclanthology.org/2020.findings-emnlp.27/)][[Github](https://github.com/google-research/tapas)] 
+* TABBIE: Pretrained Representations of Tabular Data (NAACL 2021) [[Paper](https://aclanthology.org/2021.naacl-main.270/)][[Github](https://github.com/SFIG611/tabbie)] 
 * GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing (ICLR 2021) [[Paper](https://openreview.net/forum?id=kyaIeYj4zZ)][[Huggingface](https://huggingface.co/Salesforce/grappa_large_jnt)] 
+* TUTA: Tree-based Transformers for Generally Structured Table Pre-training (KDD 2021) [[Paper](https://arxiv.org/abs/2010.12537)]
+### Graph Representation
+* A Graph Representation of Semi-structured Data for Web Question Answering (COLING 2020) [[Paper](https://aclanthology.org/2020.coling-main.5/)]
+* Retrieving Complex Tables with Multi-Granular Graph Representation Learning (SIGIR 2021) [[Paper](https://arxiv.org/abs/2105.01736)][[Github](https://github.com/FeiWang96/GTR)] 
 
 ## Text Generation over Tabular Data
 ### Datasets
